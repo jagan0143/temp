@@ -1,0 +1,138 @@
+.header{
+    background-image: url("header.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 200px; */
+    height: max-content;
+    padding-bottom: 20px;
+}
+.jlogo_container{
+    margin-left: 43%;
+    width: 93px;
+    height: 115px;
+    padding-top: 3px;
+    margin-top: 8px;
+    background-color: #a84d83;
+    border-radius: 9px;
+}
+.jlogo{
+    color: #a84d83;
+    background: #f5f0f0;
+    border-radius: 50%;
+    height: 75px;
+    width: 67px;
+    font-size: 52px;
+    text-align: center;
+    padding-left: 8px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.jfood{
+    font-size: 22px;
+    font-family: ui-monospace;
+    color: #f5f0f0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -3px;
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    word-spacing: 2px;
+    margin: 11px 5px;
+}
+.loc{
+    height: 40px;
+    width: 198px;
+    padding: 9px;
+    text-align: center;
+    /* align-items: center; */
+    border-radius: 7px;
+    border: solid 2px cadetblue;
+}
+.select{
+    height: 40px;
+    width: 200px;
+    margin: 8px;
+    text-align: center;
+    background: white;
+    border: solid 2px peachpuff;
+    font-family: monospace;
+    letter-spacing: -1px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px 12px;
+}
+.search_button{
+    width: 50px;
+    height: 40px;
+    background: white;
+    border: solid 2px peachpuff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+    margin-left: -3px;
+}
+.search{
+    width: 300px;
+    height: 40px;
+    background: white;
+    border: solid 2px peachpuff;
+    font-family: monospace;
+    letter-spacing: -1px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 13px;
+}
+.quick_search_text{
+    font-size: 30px;
+    margin: 5px 0px;
+    font-family: fangsong;
+    color: darkblue;
+}
+.sub_text{
+    font-family: fangsong;
+    font-size: 20px;
+    color: darkcyan;
+}
+.item_block{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.item_image_block{
+    vertical-align: top;
+    display: inline-block;
+}
+.item_image{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.item_description{
+    padding-left: 5px;
+    padding-top: 8%;
+    height: 150px;
+    display: inline-block;
+}
+.item_name{
+    font-size: 20px;
+    font-family: inherit;
+    color: dimgrey;
+    word-spacing: 1px;
+}
+.item_price{
+    font-size: 19px;
+    color: dimgrey;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+.item_offer{
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: emoji;
+    color: darkorange;
+}
