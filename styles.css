@@ -74,6 +74,17 @@
     font-family: sans-serif;
     color: #a84d83;
 }
+.glyphicon{
+        width: 50px;
+        height: 40px;
+        background: white;
+        border: solid 2px peachpuff;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 9px;
+        cursor: pointer;
+        margin-left: -3px;
+}
 @media (min-width: 768px) {
     .header{
         height: 200px;
