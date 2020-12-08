@@ -1,126 +1,49 @@
-<html>
-    <head>
-        <title>J Restaurant</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assignment-2.css">
-    </head>
-
-    <body>
-        <header class="container-fluid header">
-            <span>
-                <div style="text-align: center;width: 100%;">
-                    <div class="jlogo_container">
-                        <div class="jlogo">j!</div>
-                        <div class="jfood">FOODS</div>
-                    </div>
-                </div>
-                <div class="title">Discover your favourite foods and snacks near you.</div>
-                <div>
-                    <div class="" style="text-align: center;">
-                            <select name="" id="" class="select"> 
-                                <option value="">--Select Location--</option>
-                                <option value="">Chennai</option>
-                                <option value="">Bangalore</option>
-                                <option value="">Hyderabad</option>
-                                <option value="">Mumbai</option>
-                                <option value="">Delhi</option>
-                            </select>
-                            <input type="search" placeholder="Search food or snacks" class="search">
-                            <div class="glyphicon glyphicon-search search_button" ></div>
-                    </div>
-                </div>
-            </span>
-        </header>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J Webs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+        crossorigin="anonymous">        
         
-        <div class="container">
-            <div class="quick_search_text">Quick Search</div>
-            <div class="sub_text">Discover near by foods and snacks</div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="item_block">
-                        <div class="item_image_block">
-                            <img src="brown-rice-idli-3.jpg" alt="item_image" class="item_image">
-                        </div>
-                        <div class="item_description">
-                            <div class="item_name">Brown Rice Idli</div>
-                            <div class="item_price">price: &#x20B9 50</div>
-                            <div class="item_offer">10% offer on original price</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="item_block">
-                        <div class="item_image_block">
-                            <img src="Dosa.jpg" alt="item_image" class="item_image">
-                        </div>
-                        <div class="item_description">
-                            <div class="item_name">Masal Dosa</div>
-                            <div class="item_price">price: &#x20B9 40</div>
-                            <div class="item_offer">12% offer on origianl price</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="item_block">
-                        <div class="item_image_block">
-                            <img src="chapathi.jpg" alt="item_image" class="item_image">
-                        </div>
-                        <div class="item_description">
-                            <div class="item_name">Chapathi</div>
-                            <div class="item_price">price: &#x20B9 30</div>
-                            <div class="item_offer">5% offer on origianl price</div>
-                        </div>
-                    </div>
-                </div>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="company">
+            <div class="jlogocontainer">
+                <div class="jlogo">j!</div>
+                <div class="jtype">WEBS</div>
             </div>
-
-
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="item_block">
-                        <div class="item_image_block">
-                            <img src="puri.jpg" alt="item_image" class="item_image">
-                        </div>
-                        <div class="item_description">
-                            <div class="item_name">Puri</div>
-                            <div class="item_price">price: &#x20B9 20</div>
-                            <div class="item_offer">10% offer on origianl price</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="item_block">
-                        <div class="item_image_block">
-                            <img src="pongal.jpg" alt="item_image" class="item_image">
-                        </div>
-                        <div class="item_description">
-                            <div class="item_name">Pongal Vadai</div>
-                            <div class="item_price">price: &#x20B9 60</div>
-                            <div class="item_offer">5% offer on origianl price</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <div class="item_block">
-                        <div class="item_image_block">
-                            <img src="lemon-rice.jpg" alt="item_image" class="item_image">
-                        </div>
-                        <div class="item_description">
-                            <div class="item_name">Leamon Rice</div>
-                            <div class="item_price">price: &#x20B9 60</div>
-                            <div class="item_offer">5% offer on origianl price</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="company_name">
+                Company Name
             </div>
-
-
         </div>
-    </body>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info mb-4">
+        <a href="#" class="navbar-brand">Home</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
 </html>
