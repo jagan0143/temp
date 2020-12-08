@@ -43,11 +43,11 @@
     text-align: center;
 }
 .navbar{
-    padding: 0rem 1rem;
+    padding: .3rem 1rem;
     background-color: #ca9863;
 }
 .navbar-brand,.nav-item{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .navbar-toggler-icon{
     width: 0.8em;
@@ -60,6 +60,9 @@
     padding: 5px;
     border: solid 4px #d0b997;
     margin-top: 10px;
+}
+.product_container:hover{
+    border-color:lightskyblue;
 }
 .product_image{
     height: 150px;
@@ -84,6 +87,23 @@
         padding: 9px;
         cursor: pointer;
         margin-left: -3px;
+}
+.card{
+    background-color: burlywood;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.community{
+    margin-left: 10px;
+}
+.community:hover{
+    border-bottom: solid green 2px;
+}
+.foot{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: darkred;
 }
 @media (min-width: 768px) {
     .header{
