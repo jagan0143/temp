@@ -3,119 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Share Memories</title>
+    <title>J Webs</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
-    crossorigin="anonymous">       
-    <link rel="stylesheet" href="css.css"> 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+        crossorigin="anonymous">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <h3>Share your memories</h3>
+<body class="body">
+    <header class="header">
+        <div class="company">
+            <div class="jlogocontainer">
+                <div class="jlogo">j!</div>
+                <div class="jtype">WEBS</div>
+            </div>
+            <div class="company_name">
+                Company Name
             </div>
         </div>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-dark my-1">
+        <a href="#" class="navbar-brand">Home</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a class="image_box" data-toggle="modal" data-target="#exampleModalLong">
-                        <img src="images/1.jpg" alt="1" class="img-thumbnail image">
-                    </a>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_container">
+                        <img src="images/portobello.jpg" alt="portobello" class="product_image">
+                    <div class="product_descrip">
+                        Yet another type of agaricus bisporus, 
+                        the portobello is the oldest variety of the three featured here. While they were once only imported from Italy, they now grow all over the United States. Thanks to their large size and meaty flavor, they can be swapped in for meat on pretty much anything—sandwiches, 
+                        pizza, pasta sauces, omelettes, and more!
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/6.jpg" class="image_box">
-                        <img src="images/6.jpg" alt="1" class="img-thumbnail image ">
-                    </a>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_container">
+                        <img src="images/clamshell.jpg" alt="clamshell" class="product_image">
+                    <div class="product_descrip">
+                        Yet another type of agaricus bisporus, 
+                        the portobello is the oldest variety of the three featured here. While they were once only imported from Italy, they now grow all over the United States. Thanks to their large size and meaty flavor, they can be swapped in for meat on pretty much anything—sandwiches, 
+                        pizza, pasta sauces, omelettes, and more!
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/3.jpg" class="image_box">
-                        <img src="images/3.jpg" alt="1" class="img-thumbnail image">
-                    </a>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_container">
+                        <img src="images/cremini.jpg" alt="cremini" class="product_image">
+                    <div class="product_descrip">
+                        Yet another type of agaricus bisporus, 
+                        the portobello is the oldest variety of the three featured here. While they were once only imported from Italy, they now grow all over the United States. Thanks to their large size and meaty flavor, they can be swapped in for meat on pretty much anything—sandwiches, 
+                        pizza, pasta sauces, omelettes, and more!
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/7.jpg" class="image_box">
-                        <img src="images/7.jpg" alt="1" class="img-thumbnail image">
-                    </a>
-                </div>
+        </div>
+
+        <div class="card text-center">
+            <div>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                    <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                </svg>
+                <p>Jaganath</p>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/8.jpg" class="image_box">
-                        <img src="images/8.jpg" alt="1" class="img-thumbnail image">
-                    </a>
-                </div>
+
+            <div>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-door-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                  </svg>
+                <div>Address</div>
+                <p>1/450 - C, MGR Nagar, Mookandapalli, Hosur, Krishnagiri</p>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/9.jpg" class="image_box">
-                        <img src="images/9.jpg" alt="1" class="img-thumbnail image">
-                    </a>
-                </div>
+
+            <div>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                  </svg>
+                  <div>Contact Us</div>
+                  <p>9629794726 , 8124590252</p>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/10.jpg" class="image_box">
-                        <img src="images/10.jpg" alt="1" class="img-thumbnail image">
+            <hr>
+            <div>
+                <div>Community</div>
+                <div>
+                    <a href="" class="community">
+                        <i class="fa fa-whatsapp" style="font-size:25px;color:green"></i>
                     </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/11.jpg" class="image_box">
-                        <img src="images/11.jpg" alt="1" class="img-thumbnail image">
+                    <a href="https://www.instagram.com/blue__heart__jaga/" class="community" target="blank">
+                        <i class="fa fa-instagram" style="font-size:25px;color:orange"></i>
                     </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <div class="image-box">
-                    <a href="images/4.jpg" class="image_box">
-                        <img src="images/4.jpg" alt="1" class="img-thumbnail image">
+                    <a href="https://jagan0143.github.io/blueheart/" class="community" target="blank">
+                        <i class="fa fa-google" style="font-size:25px;color:blue"></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=ze4om166ru8" class="community" target="blank">
+                        <i class="fa fa-youtube" style="font-size:25px;color:red"></i>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="img">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Memories</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <img src="images/1.jpg" alt="1" class="img-thumbnail">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-info">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-left-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-                      </svg>
-                </button>
-              <button type="button" class="btn btn-outline-info"> 
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                      </svg>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button type="button" class="btn btn-default" aria-label="Left Align">
-        <span class="glyphicon glyphicon-align-left" ></span>
-    </button>
+
+    <footer class="foot">
+        <p>Copyright JWebs &copy; 2017</p>
+    </footer>
 </body>
 </html>
